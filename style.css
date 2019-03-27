@@ -17,10 +17,6 @@
   transition: min-height .5s;
 }
 
-#login_form.active {
-  min-height: 355px;
-}
-
 .sign-up {
   display: flex;
   flex-direction: column;
@@ -68,14 +64,6 @@
   100% {
     opacity: 1;
   }
-}
-
-#sign-up.active {
-  top: 0;
-  animation-name: opacity1;
-  animation-duration: .7s;
-  opacity: 1;
-  z-index: 1;
 }
 
 .sign-up-input {
@@ -160,14 +148,6 @@
   100% {
     opacity: 0;
   }
-}
-
-#login-in.active {
-  top: 60px;
-  animation-name: opacity2;
-  animation-duration: .7s;
-  opacity: 0;
-  z-index: -100;
 }
 
 .login-in-input {
