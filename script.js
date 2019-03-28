@@ -1,7 +1,3 @@
-document.querySelector('#sign-up').classList.toggle('active2');
-document.querySelector('#login-in').classList.toggle('active3');
-document.querySelector('#login_form').classList.toggle('active');
-
 var active1 = document.querySelector('.active'),
   active2 = document.querySelector('.active2'),
   active3 = document.querySelector('.active3');
